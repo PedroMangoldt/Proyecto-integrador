@@ -5,6 +5,11 @@
 a{
     
     color: #f99292;
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
 }
 
 
