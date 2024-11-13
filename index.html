@@ -8,21 +8,21 @@
 </head>
 <body>
     <header>
-    <img src="img/Logo.png" alt="logo">
-    <form action="" method="get">
-        <label for="search-input">Buscar:</label>
-        <input type="text" name="query" placeholder="Ingrese su busqueda">
-        <button type="submit">Buscar</button>
-        <p class="error-message"></p>
-    </form>
     <nav>
-        <ul>
+        <form class="busqueda" action="" method="get">
+            <label for="search-input">Buscar:</label>
+            <input type="text" name="query" placeholder="Ingrese su busqueda">
+            <button type="submit">Buscar</button>
+            <p class="error-message"></p>
+        </form>
+    </nav>
+        <ul class="lista1">
             <li><a href="index.html">Home</a></li>
             <li><a href="categorias.html">Categorias</a></li>
             <li><a href="login.html">Login</a></li>
             <li><a href="registro.html">Registro</a></li>
         </ul>
-    </nav>
+        <img src="img/Logo.png" alt="logo" class="logo">
     </header>
     <main>
     <h1>Recetas Populares</h1>
