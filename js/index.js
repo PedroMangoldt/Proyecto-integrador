@@ -10,18 +10,12 @@ fetch('https://dummyjson.com/recipes')
     console.log(data);
     recetas = data.recipes
     for(let i = 0;i<10;i++){
-        containerRecetas.innerHTML+=
-        `<article> 
+        containerRecetas.innerHTML += `<article class="recetas"> 
         <h3> ${recetas[i].name}</h3>
         <img src= ${recetas[i].image}>
         <p> ${recetas[i].difficulty} </p>
-        
         </article>`
-        
-
-
     }
-
 })
 
 

@@ -28,3 +28,28 @@ li{
     margin-left: 80%;
     color: #f99292;
 }
+
+.titulo-recetas-padre{
+    text-align: center;
+    margin-bottom: 50px;
+    color: #cb7c7c;
+}
+.recetas{
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 46%;
+}
+
+.recetas img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.container-recetas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
