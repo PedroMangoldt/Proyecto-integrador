@@ -1,5 +1,11 @@
 fetch('https://dummyjson.com/recipes')
-.then(res => res.json())
-.then(console.log);
+.then(function(response){
+    return response.json();
+})
 
-let listaRecetas = document.querySelector
+.then(function(data){
+    console.log(data);
+
+})
+
+
