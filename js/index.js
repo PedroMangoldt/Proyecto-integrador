@@ -17,6 +17,9 @@ fetch(`https://dummyjson.com/recipes?limit=${limit}&skip=${skip}`)
         <h3> ${recetas[i].name}</h3>
         <img src= ${recetas[i].image}>
         <p> ${recetas[i].difficulty} </p>
+        <p> 
+            <a herf="detalle.html">Ver detalles </a>
+         </p>
         </article>`
     }
     skip += limit;
@@ -41,7 +44,8 @@ fetch(`https://dummyjson.com/recipes?limit=${limit}&skip=${skip}`)
                     containerRecetas.innerHTML += `<article class="recetas"> 
                     <h3> ${recetas[i].name}</h3>
                     <img src= ${recetas[i].image}>
-                    <p> ${recetas[i].difficulty} </p>
+                    <p> ${recetas[i].difficulty}</p>
+                    <p> </p>
                     </article>`
                 }
             })
