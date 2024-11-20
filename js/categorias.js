@@ -1,9 +1,9 @@
-let categories
+let categorias = data.recipes;
 let categoriasContainer = document.querySelector (".categorias-container")
 
-let id = queryStringObjeto.get("")
 
-fetch(`https://dummyjson.com/recipes/meal-type/${id}`)
+
+fetch(`https://dummyjson.com/recipes/meal-type/snack`)
 .then(function(response){
     return response.json();
 })
@@ -11,12 +11,12 @@ fetch(`https://dummyjson.com/recipes/meal-type/${id}`)
 .then(function(data){
     console.log(data);
 
-    for (let i = 0; i<categories.length; i++) {
+    for (let i = 0; i< categorias.length; i++) {
         categoriasContainer.innerHtml += `
-                <article class="category">
-                <h2>${categories[i].name}</h2>
-                <a href="recetas.html?category=${categories[i].id}" class="view-recipes"> Ver recetas </a>
-                </article>`
+                <ul class="categorias-list">
+                <h2>${categorias[i].name}</h2>
+                <a href="recetas.html?category=${categorias[i].id}" class="view-recipes"> Ver recetas </a>
+                </ul>`
             ;
     }
 })
