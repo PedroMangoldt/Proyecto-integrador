@@ -11,19 +11,14 @@ fetch(`https://dummyjson.com/recipes/${id}`)
 
 .then(function(data){
     console.log(data);
-
-   let containerRecetas = document.querySelector("div")
-
-    
-        containerRecetas.innerHTML += `<article class="recetas"> 
-        <h3> ${data.name}</h3>
-        <img src= ${data.image}>
-        <p> ${data.difficulty} </p>
-        <p> 
-            <a href="detalle.html?id=${data.id}">Ver detalles </a>
-         </p>
-        </article>`
-    
+   let nombre = document.querySelector('h1');
+   nombre.innerText += data.name; 
+   let instrucciones = document.querySelector(".Inst");
+   instrucciones.innerText += data.instructions;
+   let tiempo = document.querySelector(".Tiemp");
+   tiempo.innerText += data.prepTimeMinutes;
+   let imagen = document.querySelector('img');
+   imagen.src = data.image;   
 })
 .catch(function(error) {
     console.log("Error cargando recetas:", error);
