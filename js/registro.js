@@ -11,13 +11,9 @@ formulario.addEventListener(`submit`, function(evento){
         errorEmail.innerHTML = " <p> Completar lo requerido </p>"}
     else if (contraseña.value == ``){
         console.log(`Complete el campo`)
-        errorEmail.innerHTML = " <p> Completar lo requerido </p>"}
+        errorContraseña.innerHTML = " <p> Completar lo requerido </p>"}
     else {
         formulario.submit()
     }
-
-
-
-
 
 })

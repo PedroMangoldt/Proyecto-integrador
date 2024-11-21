@@ -2,13 +2,15 @@
     background-color: #fbf5e6;
 }
 
+li{
+    list-style-type: none;
+}
+
+/* #Home ----------------------------------------------------------------*/
+
 .lista1 li a {
     color: #f99292;
     text-decoration: none;
-}
-
-li{
-    list-style-type: none;
 }
 
 .logo{
@@ -61,3 +63,53 @@ li{
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
+/*-------------------------------------------------------------------------*/
+
+/* Categorias -------------------------------------------------------------*/
+
+/*-------------------------------------------------------------------------*/
+
+/* Login ------------------------------------------------------------------*/
+
+/*-------------------------------------------------------------------------*/
+
+/* Registro ---------------------------------------------------------------*/
+
+.registrobody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 300px;
+    
+}
+.form-article{
+    border: 20px solid #f39966;
+    background-color: #eda03b;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 46%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.form-article div {
+    background-color: #eda03b;
+}
+
+.form-article label {
+    background-color: #eda03b;
+}
+
+.form-article a {
+    background-color: #eda03b;
+}
+
+.form-article button {
+    margin-top: 15px;
+    background-color: #f99292;
+}
+
+/*-------------------------------------------------------------------------*/
