@@ -6,6 +6,10 @@ li{
     list-style-type: none;
 }
 
+footer {
+    background-color: #eda03b;
+}
+
 /* #Home ----------------------------------------------------------------*/
 
 .lista1 li a {
@@ -71,6 +75,45 @@ li{
 
 /* Login ------------------------------------------------------------------*/
 
+.Inicio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 300px;
+    margin-left: 500px;
+    background-color: #f39966;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+}
+
+.login-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.formulario{
+        border: 10px solid #f39966;
+        background-color: #e7a810;
+        padding: 10px;
+        margin: 5px;
+        border-radius: 20px;
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+}
+
+.login-body div{
+    background-color: #e7a810;
+}
+
+.login-body label{
+    background-color: #e7a810;
+}
 /*-------------------------------------------------------------------------*/
 
 /* Registro ---------------------------------------------------------------*/
