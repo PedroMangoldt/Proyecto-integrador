@@ -1,5 +1,6 @@
 *{
     background-color: #fbf5e6;
+    
 }
 
 li{
@@ -71,12 +72,26 @@ footer {
 
 .category {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+
+
 }
 
-.categorias-list {
+.mainCategorias{
+    display: flex;
+    flex-direction: column;
+}
+
+.categorias-list li {
     border-radius: 15px;
     background-color: #f99292;
+    padding: 20px;
+    width: 250px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+
 
 }
 
@@ -92,6 +107,16 @@ footer {
     background-color: #f39966; 
     border-radius: 10px;
     padding: 5%;
+    text-decoration: none;
+    color: black;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.categorias-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
 }
 
 /* Category ---------------------------------------------------------------*/
