@@ -70,6 +70,10 @@ footer {
 }
 /* Categorias -------------------------------------------------------------*/
 
+.TituloCategorias {
+    display: flex;
+    justify-content: center;
+}
 .category {
     display: flex;
     flex-direction: column;
