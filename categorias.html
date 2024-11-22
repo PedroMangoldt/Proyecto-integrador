@@ -8,9 +8,22 @@
 </head>
 <body>
     <header>
-        <h1 class="TituloCategorias"> Categorias </h1>
-    </header>
-
+        <nav>
+            <form class="busqueda" action="./buscador.html" method="get">
+                <label for="search-input">Buscar:</label>
+                <input type="text" name="query" placeholder="Ingrese su busqueda">
+                <button type="submit">Buscar</button>
+                <p class="error-message"></p>
+            </form>
+        </nav>
+            <ul class="lista1">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="categorias.html">Categorias</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="registro.html">Registro</a></li>
+            </ul>
+            <img src="img/Logo.png" alt="logo" class="logo">
+        </header>
     <main class="mainCategorias">
         <section id="categorias-container" class="category"> 
             <ul class="categorias-list"> </ul>

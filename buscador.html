@@ -3,9 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
     <title>Buscador</title>
 </head>
 <body>
+    <header>
+        <nav>
+            <form class="busqueda" action="./buscador.html" method="get">
+                <label for="search-input">Buscar:</label>
+                <input type="text" name="query" placeholder="Ingrese su busqueda">
+                <button type="submit">Buscar</button>
+                <p class="error-message"></p>
+            </form>
+        </nav>
+            <ul class="lista1">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="categorias.html">Categorias</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="registro.html">Registro</a></li>
+            </ul>
+            <img src="img/Logo.png" alt="logo" class="logo">
+        </header>
+    <section class="container-recetas"></section>
     <script src="js/buscador.js"></script>
 </body>
 </html>
