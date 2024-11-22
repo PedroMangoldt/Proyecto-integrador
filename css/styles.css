@@ -47,6 +47,21 @@ footer {
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     width: 46%;
+    background-color: #f99292;
+}
+
+.recetas h3 {
+    background-color: #f99292;
+}
+
+.recetas p {
+    background-color: #f99292;
+}
+
+.recetas p a {
+    text-decoration: none;
+    background-color: #f99292;
+    color: black;
 }
 
 .recetas img {
