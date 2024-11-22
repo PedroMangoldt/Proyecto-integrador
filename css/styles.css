@@ -143,12 +143,13 @@ footer {
 
 /* Login ------------------------------------------------------------------*/
 
+.titulo-login{
+    display: flex;
+    justify-content: center; 
+}
 .Inicio {
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin-top: 300px;
-    margin-left: 500px;
     background-color: #f39966;
     border-radius: 20px;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
@@ -185,11 +186,14 @@ footer {
 
 /* Registro ---------------------------------------------------------------*/
 
+.titulo-registro{
+    display: flex;
+    justify-content: center; 
+}
 .registrobody {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 300px;
     
 }
 .form-article{
@@ -224,5 +228,31 @@ footer {
 
 /* Detalle ---------------------------------------------------------------*/
 
+.recetaM {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 46%;
+    background-color: #f99292;
+}
 
+.img1 {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.recetaM h1 {
+    background-color: #f99292;
+}
+
+.recetaM p {
+    background-color: #f99292;
+}
+
+.detalle-main {
+    display: flex;
+    justify-content: center;
+}
 /*-------------------------------------------------------------------------*/

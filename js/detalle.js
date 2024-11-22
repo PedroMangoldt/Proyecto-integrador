@@ -17,7 +17,7 @@ fetch(`https://dummyjson.com/recipes/${id}`)
    instrucciones.innerText += data.instructions;
    let tiempo = document.querySelector(".Tiemp");
    tiempo.innerText += data.prepTimeMinutes;
-   let imagen = document.querySelector('img');
+   let imagen = document.querySelector('.img1');
    imagen.src = data.image;   
 })
 .catch(function(error) {
