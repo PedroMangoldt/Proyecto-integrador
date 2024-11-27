@@ -1,6 +1,6 @@
-let formulario = document.querySelector("form")
-let campoEmail = document.querySelector("#email")
-let campoContraseña = document.querySelector("#contraseña")
+let formulario = document.querySelector(".formI")
+let email = document.querySelector(`#email`)
+let contraseña = document.querySelector(`#contraseña`)
 let errorEmail = document.querySelector(`.email`)
 let errorContraseña = document.querySelector(`.contraseña`)
 

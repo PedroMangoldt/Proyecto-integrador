@@ -184,6 +184,10 @@ footer {
     background-color: #e7a810;
 }
 
+.loginA {
+    background-color: #e7a810;
+}
+
 /* Registro ---------------------------------------------------------------*/
 
 .titulo-registro{
@@ -225,6 +229,7 @@ footer {
     margin-top: 15px;
     background-color: #f99292;
 }
+
 
 /* Detalle ---------------------------------------------------------------*/
 
