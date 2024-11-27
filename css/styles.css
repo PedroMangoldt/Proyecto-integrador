@@ -11,6 +11,8 @@ footer {
     background-color: #eda03b;
 }
 
+ 
+
 /* #Home ----------------------------------------------------------------*/
 
 .lista1 li a {
@@ -160,6 +162,7 @@ footer {
     justify-content: center;
     align-items: center;
     height: 100%;
+    margin-bottom: 250px;
 
 }
 
@@ -198,6 +201,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 200px;
     
 }
 .form-article{
