@@ -18,8 +18,23 @@ fetch(`https://dummyjson.com/recipes/${id}`)
    let tiempo = document.querySelector(".Tiemp");
    tiempo.innerText += data.prepTimeMinutes;
    let imagen = document.querySelector('.img1');
-   imagen.src = data.image;   
+   imagen.src = data.image;
+   let categorias = document.querySelector('.Catego')
+   categorias.innerText += data.tags;
 })
 .catch(function(error) {
     console.log("Error cargando recetas:", error);
 });
+
+let formulario = document.querySelector('.busqueda')
+let input = document.querySelector('.busqueda input')
+formulario.addEventListener('submit',function(evento){
+    evento.preventDefault()
+    if(input.value.length<3){
+        alert("Escribir mas de 3 caracteres")
+    }
+    else{
+        this.submit()
+    }
+
+})

@@ -23,3 +23,16 @@ fetch('https://dummyjson.com/recipes/tags')
     .catch(function (error) {
         console.log('Error al cargar las categorías:', error);
 })
+
+let formulario = document.querySelector('.busqueda')
+let input = document.querySelector('.busqueda input')
+formulario.addEventListener('submit',function(evento){
+    evento.preventDefault()
+    if(input.value.length<3){
+        alert("Escribir mas de 3 caracteres")
+    }
+    else{
+        this.submit()
+    }
+
+})

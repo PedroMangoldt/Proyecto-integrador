@@ -30,3 +30,16 @@ fetch(`https://dummyjson.com/recipes/tag/${category}`)
 .catch(function(error) {
     console.log("Error cargando recetas:", error);
 });
+
+let formulario = document.querySelector('.busqueda')
+let input = document.querySelector('.busqueda input')
+formulario.addEventListener('submit',function(evento){
+    evento.preventDefault()
+    if(input.value.length<3){
+        alert("Escribir mas de 3 caracteres")
+    }
+    else{
+        this.submit()
+    }
+
+})

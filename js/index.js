@@ -55,5 +55,16 @@ fetch(`https://dummyjson.com/recipes?limit=${limit}&skip=${skip}`)
 
 })
 
+let formulario = document.querySelector('.busqueda')
+let input = document.querySelector('.busqueda input')
+formulario.addEventListener('submit',function(evento){
+    evento.preventDefault()
+    if(input.value.length<3){
+        alert("Escribir mas de 3 caracteres")
+    }
+    else{
+        this.submit()
+    }
 
+})
 
